@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PDRCore.h"
+#import "PDRCoreAppWindow.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<PDRCoreDelegate,PDRCoreAppWindowDelegate>
 
 
 @end
