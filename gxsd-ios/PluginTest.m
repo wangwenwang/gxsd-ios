@@ -66,6 +66,7 @@
     if(commands){
         NSString *cbId = [commands.arguments objectAtIndex: 0];
         NSString *user_info = [[NSUserDefaults standardUserDefaults] objectForKey:@"w_UserInfo"];
+        user_info = user_info ? user_info : @"";
         NSArray *arr = [NSArray arrayWithObject:user_info];
         PDRPluginResult *result = [PDRPluginResult resultWithStatus:PDRCommandStatusOK messageAsArray: arr];
         [self toCallback:cbId withReslut:[result toJSONString]];

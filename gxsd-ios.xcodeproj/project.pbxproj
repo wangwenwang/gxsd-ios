@@ -99,7 +99,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B958D22242E09D50045B4BF /* gxsd-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gxsd-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B958D22242E09D50045B4BF /* 高效速读.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高效速读.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B958D25242E09D50045B4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B958D26242E09D50045B4BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B958D28242E09D50045B4BF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -443,7 +443,7 @@
 		3B958D23242E09D50045B4BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B958D22242E09D50045B4BF /* gxsd-ios.app */,
+				3B958D22242E09D50045B4BF /* 高效速读.app */,
 				3B958D3D242E09D90045B4BF /* gxsd-iosTests.xctest */,
 				3B958D48242E09DA0045B4BF /* gxsd-iosUITests.xctest */,
 			);
@@ -858,7 +858,7 @@
 			);
 			name = "gxsd-ios";
 			productName = "gxsd-ios";
-			productReference = 3B958D22242E09D50045B4BF /* gxsd-ios.app */;
+			productReference = 3B958D22242E09D50045B4BF /* 高效速读.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3B958D3C242E09D90045B4BF /* gxsd-iosTests */ = {
@@ -1186,6 +1186,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FXUDZ5557V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1201,6 +1202,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/gxsd-ios/libs",
 				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-llibUI",
@@ -1210,8 +1212,8 @@
 					"-llibIO",
 					"-llibGeolocation",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kaidongyuan.gxsd-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.gxsd.gxsd-ios";
+				PRODUCT_NAME = "高效速读";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1221,6 +1223,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = FXUDZ5557V;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1236,6 +1239,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/gxsd-ios/libs",
 				);
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-llibUI",
@@ -1245,8 +1249,8 @@
 					"-llibIO",
 					"-llibGeolocation",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kaidongyuan.gxsd-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.gxsd.gxsd-ios";
+				PRODUCT_NAME = "高效速读";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
