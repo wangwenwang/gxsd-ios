@@ -1,15 +1,17 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><title>高效速读</title><link href=static/css/app.65365cd8faff228422f01ac52f152558.css rel=stylesheet></head><script src=static/js/plugins.js></script><script>// 750 -> 1rem = 50px   大于750 -> 1rem = 100px
-	  (function (doc, win) {
-	    var docEl = doc.documentElement, resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', recalc = function () {
-	        var clientWidth = docEl.clientWidth;
-	        if (!clientWidth) return;
-	        if(clientWidth>=750){
-	          docEl.style.fontSize = 50 * (clientWidth / 750) + 'px';
-	        }else{
-	          docEl.style.fontSize = 50 * (clientWidth / 750) + 'px';
-	        }
-	      };
-	      if (!doc.addEventListener) return;
-	      win.addEventListener(resizeEvt, recalc, false);
-	    doc.addEventListener('DOMContentLoaded', recalc, false);
-	  })(document, window);</script><body><div id=app></div><script type=text/javascript src=static/js/manifest.37a2ecbb1d1b7e6c9ada.js></script><script type=text/javascript src=static/js/vendor.89f3a2511a462899d867.js></script><script type=text/javascript src=static/js/app.0b0d692cefb57bb00d26.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><title>卖货易</title><script type=text/javascript src="https://webapi.amap.com/maps?v=1.4.15&key=696a5f5abecf07324f483a8d0d786756&plugin=AMap.Driving,AMap.Geocoder,AMap.ToolBar"></script><script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script><script src="http://pv.sohu.com/cityjson?ie=utf-8"></script><link href=static/css/app.1668dc8251f6d877d5dbe3bc97d8aad4.css rel=stylesheet></head><script>// 750 -> 1rem = 50px   大于750 -> 1rem = 100px
+	    (function (doc, win) {
+	        var docEl = doc.documentElement,
+	                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	                recalc = function () {
+	                    var clientWidth = docEl.clientWidth;
+	                    if (!clientWidth) return;
+	                    if(clientWidth>=750){
+	                        docEl.style.fontSize = 50 * (clientWidth / 750) + 'px';
+	                    }else{
+	                        docEl.style.fontSize = 50 * (clientWidth / 750) + 'px';
+	                    }
+	                };
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);</script><body><div id=app></div><script type=text/javascript src=static/js/manifest.37a2ecbb1d1b7e6c9ada.js></script><script type=text/javascript src=static/js/vendor.062ced5d504a11ee671a.js></script><script type=text/javascript src=static/js/app.98749428f06a753810a0.js></script></body></html>
